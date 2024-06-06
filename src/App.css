@@ -1,0 +1,164 @@
+body {
+  padding-right: 150px;
+}
+
+@font-face {
+  font-family: "ploni-regular-aaa";
+  font-style: normal;
+  font-weight: normal;
+  src: url(font/ploni-regular-aaa.otf) format("openType");
+}
+
+* {
+  font-family: "ploni-regular-aaa";
+}
+
+.all {
+  padding: 40px;
+}
+
+.background-img {
+  background-size: auto;
+  background-position: center;
+  height: 100%;
+  min-height:90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.add {
+  background-image: url('./pictures/add.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  min-height:90vh;
+}
+
+.add-form {
+  margin-top: 40px;
+  padding: 50px;
+  padding-right: 750px;
+}
+
+.form {
+  background-color: #ffffff;
+  opacity: 65%;
+  border: solid 2px #d2c089;
+  border-radius: 25px;
+  width: 330px;
+  padding: 0;
+}
+
+.formm {
+  width: 280px;
+  padding: 20px;
+}
+
+.btn {
+  color: #d2c089;
+  background-color: black;
+  font-size: medium;
+  width: 150px;
+  height: 40px;
+  border-radius: 3.5px;
+}
+
+.text {
+  background-color: white;
+  font-size: large;
+  width: 150px;
+  height: 40px;
+  border-radius: 3.5px;
+}
+.col{
+  font-weight: bold;
+  color: #d2c089;
+}
+.toflex {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.ro{
+  display: flex;
+  align-content: center;
+}
+.role{
+  margin-bottom: 300px;
+  margin-left: 300px;
+  display: flex;
+  align-content: center;
+}
+.home {
+  background-image: url('./pictures/home.jpg');
+  height: 100%;
+  min-height:100vh;
+}
+.tab {
+  background-image: url('./pictures/tab.jpg');
+  height: 100%;
+  min-height:100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.sidebar {
+  border-left: solid 2px #d2c089;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 100vh;
+}
+
+.sidebar-list {
+
+  margin: -25px -25px -25px -25px;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 25px;
+  font-size: larger;
+}
+
+.sidebar-item {
+  padding: 20px;
+}
+
+.sidebar-item a {
+  text-decoration: none;
+  color: #d2c089;
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar-item a:hover {
+  color: #ffffff;
+}
+
+
+.sidebar-item a:active {
+  color: #ffffff;
+}
+
+.sidebar-item a {
+  width: 120px;
+  text-align: right;
+}
+
+.my-img {
+  background-image: url('./pictures/officient.png');
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  height: 110px;
+  width: 110px;
+  margin: 25px 25px;
+}
